@@ -41,8 +41,8 @@ whitelist:
 basicAuthMode: true
 # Basic authentication credentials
 basicAuthUser:
-  username: process.env.SILLYTAVERN_USERNAME
-  password: process.env.SILLYTAVERN_PASSWORD
+  username: ${SILLYTAVERN_USERNAME}
+  password: ${SILLYTAVERN_PASSWORD}
 # Enables CORS proxy middleware
 enableCorsProxy: false
 # -- REQUEST PROXY CONFIGURATION --
