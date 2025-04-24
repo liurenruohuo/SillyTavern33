@@ -1,0 +1,54 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Installing Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": true
+    },
+    "debug": {
+      "name": "debug",
+      "command": "npm run debug"
+    },
+    "start:deno": {
+      "name": "start:deno",
+      "command": "npm run start:deno"
+    },
+    "start:bun": {
+      "name": "start:bun",
+      "command": "npm run start:bun"
+    },
+    "start:no-csrf": {
+      "name": "start:no-csrf",
+      "command": "npm run start:no-csrf"
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint"
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix"
+    },
+    "plugins:update": {
+      "name": "plugins:update",
+      "command": "npm run plugins:update"
+    },
+    "plugins:install": {
+      "name": "plugins:install",
+      "command": "npm run plugins:install"
+    }
+  }
+}
